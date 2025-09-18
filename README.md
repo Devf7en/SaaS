@@ -54,6 +54,20 @@ pnpm preview
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 
+## Repository Management
+
+This template includes a repository management tool that allows you to pull/clone all configured repositories to a specific directory (by default `e:\github`).
+
+```bash
+# Pull all repositories to the default directory (e:\github)
+pnpm run pull-repos
+
+# Pull all repositories to a custom directory
+node scripts/repo-manager.js "d:\projects\github"
+```
+
+Configure which repositories to manage by editing `repo-config.json`. See [Repository Manager documentation](./docs/REPOSITORY_MANAGER.md) for detailed usage instructions.
+
 ## Nuxt Studio integration
 
 Studio is an intuitive CMS interface to edit your Nuxt Content websites.
