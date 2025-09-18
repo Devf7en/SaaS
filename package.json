@@ -9,7 +9,9 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
-    "typecheck": "nuxt typecheck"
+    "typecheck": "nuxt typecheck",
+    "pull-repos": "node scripts/repo-manager.js",
+    "pull-repos:custom": "node scripts/repo-manager.js"
   },
   "dependencies": {
     "@iconify-json/lucide": "^1.2.57",

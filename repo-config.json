@@ -1,0 +1,22 @@
+{
+  "repositories": [
+    {
+      "name": "SaaS",
+      "url": "https://github.com/Devf7en/SaaS.git",
+      "branch": "main",
+      "description": "Nuxt UI Pro SaaS Template"
+    },
+    {
+      "name": "nuxt-ui-pro-saas",
+      "url": "https://github.com/nuxt-ui-pro/saas.git",
+      "branch": "main",
+      "description": "Original Nuxt UI Pro SaaS Template"
+    }
+  ],
+  "settings": {
+    "targetDirectory": "e:\\github",
+    "defaultBranch": "main",
+    "autoUpdate": true,
+    "parallel": false
+  }
+}

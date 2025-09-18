@@ -25,3 +25,7 @@ logs
 
 # VSC
 .history
+
+# Repository Manager - exclude test directories
+e:\github
+*/github
