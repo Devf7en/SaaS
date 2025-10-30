@@ -48,7 +48,7 @@ brew install inetutils gopher bbs telnet netware
 # --- Dev Tools ---
 echo "🧰 Installing dev environments..."
 brew install node pnpm python@3.11 ruby openjdk@11 go swift
-brew install --cask visual-studio-code docker webstorm xcode
+brew install --cask visual-studio-code webstorm xcode
 
 # --- Web Frameworks ---
 echo "🌐 Installing Vue/Nuxt stack..."
