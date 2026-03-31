@@ -21,7 +21,7 @@
     "@vueuse/nuxt": "^13.5.0",
     "better-sqlite3": "^12.2.0",
     "nuxt": "^4.0.3",
-    "nuxt-og-image": "^5.1.9",
+    "nuxt-og-image": "^6.2.5",
     "zod": "^3.25.76"
   },
   "devDependencies": {
